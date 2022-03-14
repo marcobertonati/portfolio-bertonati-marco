@@ -9,25 +9,21 @@ import Projects from "../components/projects";
 import Form from "../components/form";
 import ContactForm from "../components/contact.form";
 
+/* Just for production in under construction */
+import UnderContruction from "../components/undercontruction";
+
 function IndexPage() {
   return (
-    <div className="bg-[#16182C] ">
-      <div>Under contructions 🛠️</div>
-      <p>
-        <a href="https://www.figma.com/proto/EMymcRRF6McQIhvjEPJfY4/Portfolio-Web-Marco-Bertonati?node-id=1%3A195&scaling=scale-down&page-id=0%3A1">
-          Figma Project
-        </a>
-        <Contact />
-      </p>
-      <Header />
+    <div>
+      <UnderContruction />
+      {/* <Header />
       <CurrentlyInfo />
       <About />
       <Contact />
       <Skills />
       <Academy />
       <Projects />
-      <Form />
-      {/* <ContactForm /> */}
+      <Form /> */}
     </div>
   );
 }
