@@ -1,4 +1,4 @@
-import React from "React";
+import * as React from "react";
 import illustration from "../images/profile-marco-bertonati-square-02.png";
 
 export default function Header() {

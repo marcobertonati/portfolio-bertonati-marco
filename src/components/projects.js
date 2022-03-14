@@ -1,4 +1,4 @@
-import React from "React";
+import * as React from "react";
 import ProyectReact from "../images/project-reactjs.png";
 
 export default function Projects() {
