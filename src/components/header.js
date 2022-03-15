@@ -1,5 +1,5 @@
 import * as React from "react";
-import illustration from "../images/profile-marco-bertonati-square-02.png";
+import ImgProfile from "../images/profile-marco-bertonati-square-02.png";
 
 export default function Header() {
   return (
@@ -18,10 +18,10 @@ export default function Header() {
           Fullstack Dev
         </p>
       </div>
-      <div className="rounded-full bg-white w-1/2 my-5">
+      <div className="rounded-full bg-white max-w-md w-1/2 my-5">
         <img
           className="rounded-full"
-          src={illustration}
+          src={ImgProfile}
           alt="Imagen de header que representa Marketing, Comunicación y Desarrollo Web. Marco Bertonati."
         ></img>
       </div>
