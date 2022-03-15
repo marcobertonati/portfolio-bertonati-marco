@@ -1,9 +1,9 @@
-import React from "React";
+import * as React from "react";
 import illustration from "../images/profile-marco-bertonati-square-02.png";
 
 export default function Header() {
   return (
-    <header className="container mx-auto flex justify-center items-center py-8 flex-col">
+    <header id="hi-header" className="container mx-auto flex justify-center items-center py-8 flex-col">
       {/* <div className="container mx-auto p-12 max-w-4xl flex justify-center items-center"> */}
       <div className="text-center my-5">
         <p className="font-light text-white text-2xl flex justify-center">

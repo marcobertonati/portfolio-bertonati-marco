@@ -7,6 +7,8 @@ import Skills from "../components/skills";
 import Academy from "../components/academy";
 import Projects from "../components/projects";
 import Form from "../components/form";
+import Hoobies from "../components/hobbies";
+import Footer from "../components/footer";
 import ContactForm from "../components/contact.form";
 
 /* Just for production in under construction */
@@ -14,16 +16,17 @@ import UnderContruction from "../components/undercontruction";
 
 function IndexPage() {
   return (
-    <div>
-      <UnderContruction />
-      {/* <Header />
+    <div className="bg-[#16182C]">
+      <Header />
       <CurrentlyInfo />
       <About />
       <Contact />
       <Skills />
       <Academy />
       <Projects />
-      <Form /> */}
+      <Form />
+      <Hoobies />
+      <Footer />
     </div>
   );
 }

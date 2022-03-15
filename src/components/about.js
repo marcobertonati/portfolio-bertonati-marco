@@ -1,4 +1,4 @@
-import React from "React";
+import * as React from "react";
 import ImageAbout from "../images/about-marco-bertonati.jpg";
 
 export default function About() {
