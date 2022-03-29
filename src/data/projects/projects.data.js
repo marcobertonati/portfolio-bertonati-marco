@@ -27,8 +27,17 @@ export const data = [
   },
 
   {
+    title: "Portfolio Web Marco Bertonati",
+    description: "A SPA web created with Gatsby.",
+    thumbnail:
+      "https://admin.johnserrano.co/content/images/2020/05/Gatsby2.jpg",
+    link: "https://github.com/marcobertonati/portfolio-bertonati-marco",
+  },
+
+  {
     title: "Fullstack web Project",
-    description: "A fullstack web project that use HTML, CSS (Bootstrap) and Javascript.",
+    description:
+      "A fullstack web project that use HTML, CSS (Bootstrap) and Javascript.",
     thumbnail:
       "https://englishlive.ef.com/es-es/blog/wp-content/uploads/sites/12/2018/05/travel-phrasal-verbs.jpg",
     link: "https://github.com/marcobertonati/DreamTripFinalPDTC",

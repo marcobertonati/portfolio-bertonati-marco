@@ -9,6 +9,9 @@ module.exports = {
       options: {
         // The property ID; the tracking code won't be generated without it
         trackingId: "G-J3NRMLVP4K",
+        head: true,
+        anonymize: true,
+        respectDNT: true
       },
     },
   ],

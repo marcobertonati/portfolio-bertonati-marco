@@ -32,7 +32,7 @@ export default function Form() {
           type="submit"
           className="font-bold text-white bg-[#63b8ea] px-5 rounded-b-sm"
         >
-          Send me the messagge!
+          Send me the message!
         </button>
       </form>
     </article>
