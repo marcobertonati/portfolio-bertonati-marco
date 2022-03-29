@@ -3,11 +3,19 @@ import HobbyCrossfit from "../images/hobbie-crossfit.jpg";
 
 export default function Hobbies() {
   return (
-    <article className="container mx-auto text-white flex flex-col gap-x-4 justify-center items-center mb-8">
-      <h3 className="font-bold text-3xl">HOBBIES</h3>
+    <article className="contact-form container mx-auto text-white flex flex-col justify-center items-center m-4">
+      <h3 className="flex justify-center items-center font-bold text-3xl text-white">
+        {" "}
+        <span className="text-[#63B8EA]"> {"{ "}</span>HOBBIES
+        <span className="text-[#63B8EA]"> {" }"}</span>
+      </h3>
 
       <div className="mx-16 mt-8 h-full width-full object-contain">
-        <img className="shadow-transparent" src={HobbyCrossfit} />
+        <img
+          alt="People doing Crossfit"
+          className="shadow-transparent"
+          src={HobbyCrossfit}
+        />
       </div>
     </article>
   );
