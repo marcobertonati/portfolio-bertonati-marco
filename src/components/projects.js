@@ -6,11 +6,10 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 /* https://www.npmjs.com/package/react-multi-carousel */
 
-
 export default function Projects() {
   return (
-
-    <article>
+    /* container mx-auto text-white flex flex-col gap-x-4 justify-center items-center mb-8 */
+    <article className="container mx-auto">
       <h3 className="flex justify-center items-center font-bold text-3xl text-white">
         {" "}
         <span className="text-[#63B8EA]"> {"{ "}</span>PROJECTS
@@ -37,27 +36,27 @@ export default function Projects() {
           desktop: {
             breakpoint: {
               max: 3000,
-              min: 1024
+              min: 1024,
             },
             items: 3,
-            partialVisibilityGutter: 40
+            partialVisibilityGutter: 40,
           },
           mobile: {
             breakpoint: {
               max: 464,
-              min: 0
+              min: 0,
             },
             items: 1,
-            partialVisibilityGutter: 30
+            partialVisibilityGutter: 30,
           },
           tablet: {
             breakpoint: {
               max: 1024,
-              min: 464
+              min: 464,
             },
             items: 2,
-            partialVisibilityGutter: 30
-          }
+            partialVisibilityGutter: 30,
+          },
         }}
         showDots={false}
         sliderClass=""

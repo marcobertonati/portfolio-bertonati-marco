@@ -9,7 +9,7 @@ export default function Skills() {
         <span className="text-[#63B8EA]"> {" }"}</span>
       </h3>
       <div className="skills-grid mt-4 p-2 rounded-3xl">
-        <div className="table-grid grid grid-cols-4 gap-4 p-4 text-center bg-[#16182c]">
+        <div className="table-grid grid grid-cols-4 gap-4 p-4 text-center bg-[#16182c] lg:text-3xl">
           <div>Javascript</div>
           <div>HTML</div>
           <div>CSS</div>
@@ -18,9 +18,10 @@ export default function Skills() {
           <div>Gatsby</div>
           <div>Tailwind</div>
           <div>Bootstrap</div>
-          <div>SQL</div>
+          <div>MySQL</div>
           <div>MongoDB</div>
           <div>Express</div>
+          <div> 🔎 </div>
         </div>
       </div>
 
