@@ -1,9 +1,5 @@
 import * as React from "react";
-<<<<<<< HEAD
-import illustration from "../images/profile-marco-bertonati-square-02.png";
-=======
 import ImgProfile from "../images/profile-marco-bertonati-square-02.png";
->>>>>>> dev
 
 export default function Header() {
   return (

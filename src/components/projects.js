@@ -1,7 +1,4 @@
 import * as React from "react";
-<<<<<<< HEAD
-import ProyectReact from "../images/project-reactjs.png";
-=======
 // import ProyectReact from "../images/project-reactjs.png";
 import Card from "./proyects.card";
 import data from "../data/index";
@@ -9,7 +6,6 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 /* https://www.npmjs.com/package/react-multi-carousel */
 
->>>>>>> dev
 
 export default function Projects() {
   return (
