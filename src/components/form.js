@@ -4,12 +4,12 @@ export default function Form() {
   return (
     <article
       id="form-message"
-      className="contact-form container mx-auto text-white flex flex-col justify-center items-center m-4"
+      className="container contact-form  mx-auto text-white flex flex-col justify-center items-center m-4"
     >
       <h3 className="font-bold text-3xl">Thanks for your visit!</h3>
 
       <form
-        className="bg-white rounded-lg p-4 mx-6 w-full flex flex-col mt-2"
+        className="bg-white rounded-lg p-4 w-4/5 md:w-full lg:w-2/3 flex flex-col mt-4"
         action="https://formspree.io/f/mrgjakyb"
         method="POST"
       >
