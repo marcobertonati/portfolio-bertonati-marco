@@ -2,59 +2,194 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: #16182c;
+}
+
+/*ABOUT ME*/
+/* Animation About me */
+#about-me:after {
+  content: " 🤟 ";
+  position: absolute;
+  margin-left: 0.75rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    font-size: 1.25rem;
+    transform: rotate(-30deg);
+  }
+
+  80% {
+    font-size: 1.4rem;
+    transform: rotate(25deg);
+  }
+  100% {
+    font-size: 1.25rem;
+    transform: rotate(-30deg);
+  }
+}
+
+/*SKILL*/
+/* Animation Skill Grid */
+.skills-grid {
+  /* border: #fff 1px solid; */
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #16182c;
+}
+
+.skills-grid::before {
+  content: "";
+  background-image: conic-gradient(#63b8ea 40deg, transparent 190deg);
+  width: 150%;
+  height: 150%;
+  position: absolute;
+  animation: rotate 5s linear infinite;
+}
+
+.skills-grid::after {
+  content: "";
+  width: 98%;
+  height: 97%;
+  background: #16182c;
+  position: absolute;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.table-grid {
+  z-index: 1;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ACADEMY */
+/* The line */
+.timeline {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.timeline ul {
+  display: flex;
+  flex-direction: column;
+}
 .timeline ul li {
+  display: flex;
+  width: 100%;
+}
+
+.timeline ul li time {
+  text-align: right;
+  min-width: 50%;
+  align-self: center;
+}
+
+.timeline ul li .line {
   list-style-type: none;
   position: relative;
   width: 0.225rem;
-  margin: 0 auto;
+  min-width: 3px;
+  margin: 0 1rem; /* center the line */
   padding-top: 50px;
   background: #63b8ea;
 }
-
-.timeline ul li::after {
+/* The circle*/
+.timeline ul li:not(:first-child) .line::after {
   content: "";
   position: absolute;
   left: 50%;
-  bottom: 0;
+  top: 35%;
+  /* top: 90%; */
+  /* bottom: 0; */
   transform: translateX(-50%);
+  /* transform: translateY(-200%); */
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
   background: inherit;
 }
 
-.triangle-timeline {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 1rem 1rem 1rem;
-  border-color: transparent transparent #203dcc transparent;
-}
-
-.timeline ul li div {
-  display: none;
-  position: relative;
+.timeline ul li div time {
   bottom: 0;
+  padding: 2rem;
   width: 100%;
   padding: 1rem;
 }
 
-.timeline ul li time {
-  position: relative;
-  bottom: 0;
-  width: 100%;
+.timeline ul li p {
+  color: #16182c;
+  align-self: center;
   padding: 1rem;
 }
 
-.timeline ul li:hover div {
-  display: block;
+.timeline ul li p::before {
+  /* position: absolute; */
+  content: "👈 ";
 }
 
-.timeline ul li div::before {
+.timeline ul li:last-child p::before {
+  content: "🐣";
+}
+
+.timeline ul li time:hover ~ p {
   content: "";
-  position: absolute;
-  bottom: 7px;
-  width: 0;
-  height: 0;
-  border-style: solid;
+  color: #63b8ea;
+  transition: all 0.5s ease-in-out;
 }
+
+.timeline ul li time:hover ~ p::before {
+  content: "";
+}
+
+.li-triangle {
+  display: flex;
+  justify-content: center;
+}
+.triangle {
+  list-style-type: none;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #63b8ea;
+  margin-left: 2.2rem;
+}
+
+/*PROJECTS*/
+.react-multiple-carousel__arrow {
+  background: rgb(0, 0, 0, 0.1) !important;
+}
+
+.react-multiple-carousel__arrow--right::before {
+  content: "\e825";
+  color: #63b8ea !important;
+}
+
+.react-multiple-carousel__arrow--left::before {
+  content: "\e825";
+  color: #63b8ea !important;
+}
+
+/* FORM MESSAGE */
+/* https://stackoverflow.com/questions/24287192/css-change-parent-on-focus-of-child */
+
+/* .sub-main-container:focus-within:not(#form-message) {
+  filter: blur(0.5rem);
+} */
+
+
+/* HOBBIES */

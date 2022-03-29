@@ -2,15 +2,36 @@ import * as React from "react";
 
 export default function Form() {
   return (
-    <article className="container mx-auto text-white flex flex-col gap-x-4 justify-center items-center mb-8">
+    <article
+      id="form-message"
+      className="contact-form container mx-auto text-white flex flex-col justify-center items-center m-4"
+    >
       <h3 className="font-bold text-3xl">Thanks for your visit!</h3>
 
-      <form className="bg-white mx-6 w-full flex flex-col">
+      <form
+        className="bg-white rounded-lg p-4 mx-6 w-full flex flex-col mt-2"
+        action="https://formspree.io/f/mrgjakyb"
+        method="POST"
+      >
+        <input
+          name="email"
+          type="email"
+          className="p-2 text-[#63b8ea] text-bold"
+          placeholder="Put our email"
+          required
+        ></input>
+
         <textarea
-          className="pb-6 text-black"
-          placeholder="Blah blah blah blah ... 💬"
+          name="message"
+          id="textarea-form-message"
+          className="p-2 pb-8 text-black"
+          placeholder="Let me your message! 💬"
+          required
         />
-        <button className="font-bold text-white bg-[#63b8ea] px-5 rounded-b-sm">
+        <button
+          type="submit"
+          className="font-bold text-white bg-[#63b8ea] px-5 rounded-b-sm"
+        >
           Send me the messagge!
         </button>
       </form>
