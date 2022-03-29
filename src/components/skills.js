@@ -27,7 +27,7 @@ export default function Skills() {
 
       <p className="mt-8 text-center p-4">
         🔊 <span className="text-[#63B8EA] font-bold ">English B1+ </span>{" "}
-        certificated 2020 by Instituto Intercultural de Mendoza
+        certified in 2020 by Instituto Intercultural de Mendoza.
       </p>
     </article>
   );

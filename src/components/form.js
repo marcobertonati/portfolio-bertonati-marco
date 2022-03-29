@@ -17,7 +17,7 @@ export default function Form() {
           name="email"
           type="email"
           className="p-2 text-[#63b8ea] text-bold"
-          placeholder="Put our email"
+          placeholder="Type your email "
           required
         ></input>
 
@@ -25,14 +25,14 @@ export default function Form() {
           name="message"
           id="textarea-form-message"
           className="p-2 pb-8 text-black"
-          placeholder="Let me your message! 💬"
+          placeholder="Leave your message! 💬"
           required
         />
         <button
           type="submit"
           className="font-bold text-white bg-[#63b8ea] px-5 rounded-b-sm"
         >
-          Send me the message!
+          SEND!
         </button>
       </form>
     </article>

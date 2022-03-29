@@ -49,7 +49,7 @@ export default function Academy() {
             <time>November 2020</time>
             <div className="line"></div>
 
-            <p>I finished a introduction course to Java in UTN Mendoza.</p>
+            <p>I finished an introductory course to JAVA in UTN Mendoza.</p>
           </li>
 
           <li>
