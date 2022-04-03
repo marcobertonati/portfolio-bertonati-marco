@@ -10,7 +10,7 @@ export default function Card({ title, description, thumbnail, link }) {
         <p class="text-gray-700 text-base px-4">{description} </p>
         <div class="flex j px-4 mt-4">
           <a href={link} class="rounded-full text-white bg-[#63b8ea] py-2 px-4">
-            Go project!
+            Go to the project!
           </a>
         </div>
       </div>

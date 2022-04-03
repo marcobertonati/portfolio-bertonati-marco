@@ -21,11 +21,7 @@ export default function About() {
             ABOUT ME
           </h2>
           <p className="flex md:text-xl justify-center items-center rounded-lg">
-            I'm Marco Bertonati from Mendoza (Argentina). Since I was a kid (07/11/1989)
-            I've been interested in technology, comunication & design. I got a
-            bachelor degree in Social Comunication (Unidversidad Nacional de
-            Cuyo) and currently I'm expading my knowledge to web
-            development.
+            I'm Marco Bertonati from Mendoza (Argentina). Since I was a kid (07/11/1989) I've been interested in  technology, comunication & design. I got a bachelor degree in Social Comunication (Universidad Nacional de Cuyo) and currently I'm expanding my knowledge to web development.
           </p>
         </div>
       </div>
