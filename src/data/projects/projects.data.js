@@ -1,4 +1,14 @@
 export const data = [
+
+  {
+    title: "Inscrope Web",
+    description:
+      "A Gatsby Web Project that uses React & Tailwind.",
+    thumbnail:
+      "https://www.bayangroupci.com/wp-content/uploads/2021/08/tools.gif",
+    link: "https://github.com/marcobertonati/inscope-web-gatsby",
+  },
+  
   {
     title: "MERN Project",
     description:
@@ -42,4 +52,8 @@ export const data = [
       "https://englishlive.ef.com/es-es/blog/wp-content/uploads/sites/12/2018/05/travel-phrasal-verbs.jpg",
     link: "https://github.com/marcobertonati/DreamTripFinalPDTC",
   },
+
+ 
 ];
+
+

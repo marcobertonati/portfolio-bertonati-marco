@@ -8,7 +8,7 @@ export default function About() {
         <div className="hidden md:flex lg:flex-none ">
           <img
             className="lg:max-h-96 rounded-l-3xl"
-            alt="Foto de la sección 'acerca de' Marco Bertonati."
+            alt="About Marco Bertonati."
             src={ImageAbout}
           />
         </div>

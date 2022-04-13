@@ -6,7 +6,10 @@ export default function Footer() {
       <p className="font-bold text-3xl">
         <a href="#hi-header">🌤</a>
       </p>
-      <p className="font-bold text-3xl mb-10">Take me to heaven!</p>
+      <p className="font-bold text-3xl mb-10">
+        {" "}
+        <a href="#hi-header">Take me to heaven!</a>
+      </p>
     </footer>
   );
 }
