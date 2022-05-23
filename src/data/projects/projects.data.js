@@ -1,14 +1,19 @@
 export const data = [
-
+  {
+    title: "Country Search",
+    description: "A RactJs + Apollo project to search for countries grouped by continent and lenguage.",
+    thumbnail:
+      "https://image.architonic.com/img_pro2-4/153/6083/instabilelab-news-2018-world-map-01-b.jpg",
+    link: "https://github.com/marcobertonati/kimchechallenge",
+  },
   {
     title: "Inscrope Web",
-    description:
-      "A Gatsby Web Project that uses React & Tailwind.",
+    description: "A Gatsby Web Project that uses React & Tailwind.",
     thumbnail:
       "https://www.bayangroupci.com/wp-content/uploads/2021/08/tools.gif",
     link: "https://github.com/marcobertonati/inscope-web-gatsby",
   },
-  
+
   {
     title: "MERN Project",
     description:
@@ -29,8 +34,7 @@ export const data = [
 
   {
     title: "Hara Equilibrio web page",
-    description:
-      "A simple web page for Hara Equilibrio to offer its products.",
+    description: "A simple web page for Hara Equilibrio to offer its products.",
     thumbnail:
       "https://hara-equilibrio.vercel.app/src/assets/HARASVG_Mesa%20de%20trabajo%201.svg",
     link: "https://hara-equilibrio.vercel.app/index.html",
@@ -52,8 +56,4 @@ export const data = [
       "https://englishlive.ef.com/es-es/blog/wp-content/uploads/sites/12/2018/05/travel-phrasal-verbs.jpg",
     link: "https://github.com/marcobertonati/DreamTripFinalPDTC",
   },
-
- 
 ];
-
-
