@@ -1,10 +1,18 @@
 export const data = [
   {
     title: "Country Search",
-    description: "A RactJs + Apollo project to search for countries grouped by continent and lenguage.",
+    description:
+      "A ReactJs + Apollo project to search for countries grouped by continent and lenguage.",
     thumbnail:
       "https://image.architonic.com/img_pro2-4/153/6083/instabilelab-news-2018-world-map-01-b.jpg",
     link: "https://github.com/marcobertonati/kimchechallenge",
+  },
+  {
+    title: "Nerdflix Catalogue",
+    description: "A ReactJs + MUI project to filter movies.",
+    thumbnail:
+      "https://www.esnmurcia.org/sites/default/files/events/images/cine.jpg",
+    link: "https://github.com/marcobertonati/burnoutzero_bertonatimarco",
   },
   {
     title: "Inscrope Web",
