@@ -12,7 +12,7 @@ export default function Jobs() {
       <div className="mx-4 rounded-3xl md:flex  bg-[#2B2C6E] shadow-xl mt-8">
         <div className="hidden md:flex lg:flex-none ">
           <img
-            className="lg:max-h-96 rounded-l-3xl"
+            className="lg:max-h-96 rounded-l-3xl max-w-[150px]"
             alt="About Marco Bertonati."
             src={ImageIgnite}
           />
