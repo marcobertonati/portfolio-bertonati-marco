@@ -7,6 +7,7 @@ import Skills from "../components/skills";
 import Academy from "../components/academy";
 import Projects from "../components/projects";
 import Form from "../components/form";
+import Jobs from "../components/jobs";
 // import Hoobies from "../components/hobbies";
 import Footer from "../components/footer";
 
@@ -22,6 +23,7 @@ function IndexPage() {
         <About />
         <Contact />
         <Skills />
+        <Jobs />
         <Academy />
         <Projects />
         <Form />
